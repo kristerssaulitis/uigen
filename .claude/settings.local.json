@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude logout:*)",
+      "Bash(curl -s http://localhost:3000/src/components/ui/scroll-area.tsx)",
+      "Bash(npm install:*)",
+      "Bash(curl -s https://dashscope-intl.aliyuncs.com/compatible-mode/v1/models -H 'Authorization: Bearer sk-b7136085c7984c0dbda600d7a6472ffa' -H 'Content-Type: application/json')",
+      "Bash(npx tsc:*)",
+      "Bash(npm ls:*)",
+      "Bash(NODE_OPTIONS='--require ./node-compat.cjs' npm run:*)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s -X POST http://localhost:3000/api/chat -H 'Content-Type: application/json' -d '{\"projectId\":\"test\",\"messages\":[{\"role\":\"user\",\"content\":\"Create a button\"}]}' --no-buffer)",
+      "Bash(curl -s -X POST http://localhost:3000/api/chat -H 'Content-Type: application/json' -d '{\"messages\":[{\"role\":\"user\",\"content\":\"Create a button\"}]}' --no-buffer)",
+      "Bash(git add:*)"
+    ]
+  }
+}
